@@ -1,0 +1,11 @@
+<strings>
+    <string id="AppName">Flag Quiz</string>
+    <string id="LengthTitle">How many?</string>
+    <string id="All">All</string>
+    <string id="TapToReveal">Tap to reveal</string>
+    <string id="Correct">correct</string>
+    <string id="Of">of</string>
+    <string id="MissedTitle">Missed</string>
+    <string id="TapForMissed">Tap to see missed</string>
+    <string id="Perfect">Perfect round!</string>
+</strings>
