@@ -58,7 +58,16 @@ class SummaryDelegate extends WatchUi.BehaviorDelegate {
         return showMissed();
     }
 
-    // Swipe right falls through to the default "back", which returns to the region menu.
+    // Swipe down returns to the region menu. Swipe right and the back button
+    // fall through to the default "back", which does the same.
+    function onSwipe(evt as WatchUi.SwipeEvent) as Boolean {
+        if (evt.getDirection() == WatchUi.SWIPE_DOWN) {
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
+            return true;
+        }
+        return false;
+    }
+
     private function showMissed() as Boolean {
         var missed = _session.missed();
         if (missed.size() == 0) {

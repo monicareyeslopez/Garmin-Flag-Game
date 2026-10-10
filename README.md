@@ -6,8 +6,9 @@ An application built for the Garmin Vivo Active 5 to guess country/sovereign sta
 1. Pick a region (World, Africa, Americas, Asia, Europe, Oceania) and how many flags.
 2. A flag appears. Guess in your head, then tap (or press the top button) to reveal the name.
 3. Swipe right if you were correct, left if you were wrong.
-4. Swipe down on the next flag to undo a mis-swipe.
-5. The back button ends the session early. The summary shows your accuracy; tap it to list the flags you missed.
+4. Swipe up on the next flag to undo a mis-swipe.
+5. Swipe down at any time (or press the back button) to end the session early.
+6. The summary shows your accuracy; tap it to list the flags you missed. Swipe down to return to the main screen.
 
 Nothing is saved between sessions.
 
